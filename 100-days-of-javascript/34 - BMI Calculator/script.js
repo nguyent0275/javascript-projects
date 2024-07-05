@@ -29,6 +29,7 @@ function calculteBMI(e) {
 
 function renderResults(val, color) {
   result.style.backgroundColor = color;
+  result.style.display = "block";
   renderReset();
   return (result.innerHTML = val);
 }
