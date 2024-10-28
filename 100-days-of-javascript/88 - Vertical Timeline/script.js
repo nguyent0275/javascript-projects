@@ -1,5 +1,6 @@
 (function () {
   const items = document.querySelectorAll(".timeline li");
+  //   checks if the slides are in the viewport, if they are then the will be given the slide-in class giving the sliding animation
   function isElementInViewport(el) {
     let rect = el.getBoundingClientRect();
     return (
