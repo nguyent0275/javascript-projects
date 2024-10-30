@@ -1,0 +1,1 @@
+Fix track.play() promise error handling in script file. Application works fine, but could cause backend problems and load overtime with build ups of errors. 
